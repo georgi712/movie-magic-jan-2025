@@ -20,4 +20,4 @@ app.use(express.urlencoded({extended: false})); // Learn express to parse form d
 
 app.use(routes);
 
-app.listen(5001, () => console.log('Server is listening on http://localhost:5001...'));
+app.listen(3000, () => console.log('Server is listening on http://localhost:5001...'));
